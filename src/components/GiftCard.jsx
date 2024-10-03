@@ -4,7 +4,7 @@ import LinkButton from "./ui/LinkButton";
 
 const GiftCard = ({ image, title, link }) => (
   <div className="w-full lg:w-1/2 bg-ac-tint-300 flex rounded-2xl">
-    <div className="flex flex-col gap-y-6 py-2 px-4 lg:p-6">
+    <div className="flex flex-col justify-center gap-y-6 py-2 px-4 lg:p-6">
       <h4 className="body-5 lg:heading-4 text-gray-950">{ title }</h4>
       <LinkButton variant="outline"
                   size="sm"
