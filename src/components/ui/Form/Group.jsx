@@ -13,7 +13,7 @@ const Group = ({ name, type, label, children }) => {
             <label htmlFor={name} className={cn("body-4", isError ? "text-error" : " text-gray-500")}>
                 { label }
             </label>
-            <Field name={name} as="input" type={type} className={cn("w-73")} error={isError} />
+            <Field name={name} as="input" type={type} error={isError} />
             {isError && <span className="caption-4 text-error">{ meta.error }</span>}
             {children}
         </div>
